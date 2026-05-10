@@ -1,0 +1,8 @@
+# MLTable definition file
+
+paths:
+  - file: ./ER_Triage_Dataset.csv
+transformations:
+  - read_delimited:
+        delimiter: ','
+        encoding: 'ascii'
